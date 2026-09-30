@@ -4,6 +4,8 @@
       "id": "45001-rev",
       "reference": "ISO/DIS 45001",
       "topic": "Revisión de ISO 45001",
+      "category": "Gestión SST",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/08/96/89698.detail.rss",
       "page": "https://www.iso.org/es/norma/45001/rev"
     },
@@ -11,6 +13,8 @@
       "id": "45002",
       "reference": "ISO 45002:2023",
       "topic": "Implementación de ISO 45001",
+      "category": "Gestión SST",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/07/66/76619.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/07/66/76619.html"
     },
@@ -18,6 +22,8 @@
       "id": "45003",
       "reference": "ISO 45003:2021",
       "topic": "Riesgos psicosociales",
+      "category": "Psicosocial",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/06/42/64283.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/06/42/64283.html"
     },
@@ -25,6 +31,8 @@
       "id": "45004",
       "reference": "ISO 45004:2024",
       "topic": "Evaluación del desempeño SST",
+      "category": "Gestión SST",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/06/42/64285.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/06/42/64285.html"
     },
@@ -32,13 +40,17 @@
       "id": "45005",
       "reference": "ISO/PAS 45005:2020",
       "topic": "Trabajo seguro y COVID-19",
+      "category": "Salud laboral",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/06/42/64286.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/06/42/64286.html"
     },
     {
       "id": "45006",
       "reference": "ISO 45006:2023",
-      "topic": "Enfermedades infecciosas",
+      "topic": "Prevención y gestión de enfermedades infecciosas",
+      "category": "Salud laboral",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/06/43/64361.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/06/43/64361.html"
     },
@@ -46,6 +58,8 @@
       "id": "45007",
       "reference": "ISO/PAS 45007:2026",
       "topic": "Cambio climático y SST",
+      "category": "Clima y ambiente",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/08/93/89309.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/08/93/89309.html"
     },
@@ -53,6 +67,8 @@
       "id": "45008",
       "reference": "ISO/DIS 45008",
       "topic": "Trabajo remoto",
+      "category": "Trabajo y tecnología",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/06/43/64363.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/06/43/64363.html"
     },
@@ -60,6 +76,8 @@
       "id": "45009",
       "reference": "ISO/AWI 45009",
       "topic": "Liderazgo y gobernanza en SST",
+      "category": "Gestión SST",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/09/09/90906.detail.rss",
       "page": "https://www.iso.org/es/contents/data/standard/09/09/90906.html"
     },
@@ -67,8 +85,100 @@
       "id": "45010",
       "reference": "ISO 45010:2026",
       "topic": "Menstruación y menopausia en el trabajo",
+      "category": "Salud laboral",
+      "committee": "ISO/TC 283",
       "rss": "https://www.iso.org/es/contents/data/standard/06/43/64365.detail.rss",
       "page": "https://www.iso.org/es/norma/45010"
+    },
+    {
+      "id": "9612",
+      "reference": "ISO 9612:2025",
+      "topic": "Exposición ocupacional a ruido",
+      "category": "Higiene ocupacional",
+      "committee": "ISO/TC 43/SC 1",
+      "rss": "https://www.iso.org/es/contents/data/standard/08/13/81317.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/08/13/81317.html"
+    },
+    {
+      "id": "7243",
+      "reference": "ISO 7243:2017",
+      "topic": "Estrés térmico por calor (WBGT)",
+      "category": "Clima y ambiente",
+      "committee": "ISO/TC 159/SC 5",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/71/67188.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/71/67188.html"
+    },
+    {
+      "id": "11228-2",
+      "reference": "ISO/CD 11228-2",
+      "topic": "Manipulación manual: empuje y tracción",
+      "category": "Ergonomía",
+      "committee": "ISO/TC 159/SC 3",
+      "rss": "https://www.iso.org/es/contents/data/standard/08/92/89268.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/08/92/89268.html"
+    },
+    {
+      "id": "20141",
+      "reference": "ISO/TS 20141:2022",
+      "topic": "Compatibilidad entre equipos de protección personal",
+      "category": "EPP",
+      "committee": "ISO/TC 94",
+      "rss": "https://www.iso.org/es/contents/data/standard/07/77/77758.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/07/77/77758.html"
+    },
+    {
+      "id": "22270",
+      "reference": "ISO/TS 22270:2026",
+      "topic": "Monitoreo de vibración mano-brazo",
+      "category": "Higiene ocupacional",
+      "committee": "ISO/TC 108/SC 4",
+      "rss": "https://www.iso.org/es/contents/data/standard/08/70/87058.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/08/70/87058.html"
+    },
+    {
+      "id": "22320",
+      "reference": "ISO 22320:2018",
+      "topic": "Gestión de incidentes y emergencias",
+      "category": "Emergencias",
+      "committee": "ISO/TC 292/SC 1",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/78/67851.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/78/67851.html"
+    },
+    {
+      "id": "7708-rev",
+      "reference": "ISO/CD 7708",
+      "topic": "Fracciones de tamaño para partículas en aire laboral",
+      "category": "Higiene ocupacional",
+      "committee": "ISO/TC 146/SC 2",
+      "rss": "https://www.iso.org/es/contents/data/standard/09/28/92878.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/09/28/92878.html"
+    },
+    {
+      "id": "6385",
+      "reference": "ISO 6385:2016",
+      "topic": "Principios ergonómicos para sistemas de trabajo",
+      "category": "Ergonomía",
+      "committee": "ISO/TC 159/SC 1",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/37/63785.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/37/63785.html"
+    },
+    {
+      "id": "10075-2",
+      "reference": "ISO 10075-2:2024",
+      "topic": "Carga mental y diseño del trabajo",
+      "category": "Psicosocial",
+      "committee": "ISO/TC 159/SC 1",
+      "rss": "https://www.iso.org/es/contents/data/standard/07/66/76686.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/07/66/76686.html"
+    },
+    {
+      "id": "5349-3",
+      "reference": "ISO 5349-3:2025",
+      "topic": "Vibración mano-brazo: choques aislados y repetidos",
+      "category": "Higiene ocupacional",
+      "committee": "ISO/TC 108/SC 4",
+      "rss": "https://www.iso.org/es/contents/data/standard/08/37/83792.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/08/37/83792.html"
     }
   ]
 }
