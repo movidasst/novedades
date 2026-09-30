@@ -12,17 +12,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Consultar RSS oficiales
         run: python scripts/update_feeds.py
-
       - name: Guardar cambios
         run: |
           git config user.name "movidasst-bot"
