@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#00205b" />
+  <meta name="description" content="Radar ISO SST de La Movida de SST+: seguimiento de normas y proyectos ISO/TC 283 mediante RSS oficiales de ISO.org." />
+  <title>Novedades ISO SST · La Movida de SST+</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="https://www.movidasst.com" aria-label="La Movida de SST">
+      <span class="brand-main">La Movida de <strong>SST</strong><b>+</b></span>
+      <span class="brand-sub">De la reacción a la prevención</span>
+    </a>
+    <nav>
+      <a href="#radar">Radar</a>
+      <a href="#etapas">Etapas ISO</a>
+      <a href="#fuentes">Fuentes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">RADAR ISO · SEGURIDAD Y SALUD EN EL TRABAJO</div>
+        <h1>Novedades ISO en SST, <span>sin perderles la pista.</span></h1>
+        <p>Seguimiento visual de normas y proyectos vinculados al ISO/TC 283. Los cambios se actualizan automáticamente desde los RSS oficiales de ISO.org.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#radar">Ver novedades</a>
+          <a class="btn ghost" href="https://www.iso.org/committee/4857129.html" target="_blank" rel="noopener">ISO/TC 283 ↗</a>
+        </div>
+        <div class="live-line"><span class="pulse"></span><span id="lastUpdate">Cargando última actualización…</span></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="doc-card d1"><b>ISO</b><span>45001</span><small>DIS</small></div>
+        <div class="doc-card d2"><b>ISO</b><span>45008</span><small>DIS</small></div>
+        <div class="doc-card d3"><b>ISO</b><span>45009</span><small>AWI</small></div>
+        <div class="radar-ring"><span></span></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Resumen">
+      <article><span id="countTotal">—</span><small>normas y proyectos vigilados</small></article>
+      <article><span id="countDev">—</span><small>en desarrollo</small></article>
+      <article><span id="countPub">—</span><small>publicados</small></article>
+      <article><span id="countReview">—</span><small>en revisión</small></article>
+    </section>
+
+    <section class="section" id="radar">
+      <div class="section-head">
+        <div><span class="kicker">ÚLTIMOS CAMBIOS</span><h2>Radar ISO SST</h2></div>
+        <p>Busca por número, tema o etapa. Los datos vienen del feed oficial de cada documento.</p>
+      </div>
+
+      <div class="toolbar">
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar ISO 45008, clima, teletrabajo…" autocomplete="off"></label>
+        <div class="filters" role="group" aria-label="Filtros">
+          <button class="chip active" data-filter="all">Todas</button>
+          <button class="chip" data-filter="development">En desarrollo</button>
+          <button class="chip" data-filter="published">Publicadas</button>
+          <button class="chip" data-filter="review">Revisión</button>
+        </div>
+      </div>
+
+      <div id="cards" class="cards" aria-live="polite">
+        <div class="loading-card">Cargando novedades oficiales…</div>
+      </div>
+      <div id="emptyState" class="empty" hidden>No encontramos coincidencias con ese filtro.</div>
+    </section>
+
+    <section class="section stages" id="etapas">
+      <div class="section-head">
+        <div><span class="kicker">CÓMO LEER EL ESTADO</span><h2>El recorrido de una ISO</h2></div>
+        <p>La cifra de etapa permite saber en qué punto del desarrollo está un documento.</p>
+      </div>
+      <div class="stage-track">
+        <div class="stage-item"><b>20</b><span>Preparación</span><small>AWI / WD</small></div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-item"><b>30</b><span>Comité</span><small>CD</small></div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-item accent"><b>40</b><span>Consulta</span><small>DIS</small></div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-item"><b>50</b><span>Aprobación</span><small>FDIS</small></div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-item success"><b>60</b><span>Publicación</span><small>ISO / PAS</small></div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-item muted"><b>90</b><span>Revisión</span><small>Revisión sistemática</small></div>
+      </div>
+      <div class="note"><strong>Importante:</strong> PAS es un tipo de publicación ISO, no una etapa de borrador. La nomenclatura y la etapa deben leerse juntas.</div>
+    </section>
+
+    <section class="section sources" id="fuentes">
+      <div class="section-head">
+        <div><span class="kicker">TRANSPARENCIA</span><h2>Fuentes oficiales</h2></div>
+        <p>Esta página no reemplaza ISO.org. Resume metadatos públicos de sus RSS y enlaza siempre al documento original.</p>
+      </div>
+      <div id="sourceList" class="source-list"></div>
+      <div class="source-footer">
+        <span>Actualización automática programada cada 6 horas.</span>
+        <a href="https://github.com/movidasst/novedades" target="_blank" rel="noopener">Ver proyecto en GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>La Movida de SST+</strong><span>De la reacción a la prevención</span></div>
+    <a href="https://www.movidasst.com">www.movidasst.com</a>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
