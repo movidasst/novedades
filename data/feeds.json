@@ -1,0 +1,74 @@
+{
+  "feeds": [
+    {
+      "id": "45001-rev",
+      "reference": "ISO/DIS 45001",
+      "topic": "Revisión de ISO 45001",
+      "rss": "https://www.iso.org/es/contents/data/standard/08/96/89698.detail.rss",
+      "page": "https://www.iso.org/es/norma/45001/rev"
+    },
+    {
+      "id": "45002",
+      "reference": "ISO 45002:2023",
+      "topic": "Implementación de ISO 45001",
+      "rss": "https://www.iso.org/es/contents/data/standard/07/66/76619.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/07/66/76619.html"
+    },
+    {
+      "id": "45003",
+      "reference": "ISO 45003:2021",
+      "topic": "Riesgos psicosociales",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/42/64283.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/42/64283.html"
+    },
+    {
+      "id": "45004",
+      "reference": "ISO 45004:2024",
+      "topic": "Evaluación del desempeño SST",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/42/64285.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/42/64285.html"
+    },
+    {
+      "id": "45005",
+      "reference": "ISO/PAS 45005:2020",
+      "topic": "Trabajo seguro y COVID-19",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/42/64286.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/42/64286.html"
+    },
+    {
+      "id": "45006",
+      "reference": "ISO 45006:2023",
+      "topic": "Enfermedades infecciosas",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/43/64361.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/43/64361.html"
+    },
+    {
+      "id": "45007",
+      "reference": "ISO/PAS 45007:2026",
+      "topic": "Cambio climático y SST",
+      "rss": "https://www.iso.org/es/contents/data/standard/08/93/89309.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/08/93/89309.html"
+    },
+    {
+      "id": "45008",
+      "reference": "ISO/DIS 45008",
+      "topic": "Trabajo remoto",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/43/64363.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/06/43/64363.html"
+    },
+    {
+      "id": "45009",
+      "reference": "ISO/AWI 45009",
+      "topic": "Liderazgo y gobernanza en SST",
+      "rss": "https://www.iso.org/es/contents/data/standard/09/09/90906.detail.rss",
+      "page": "https://www.iso.org/es/contents/data/standard/09/09/90906.html"
+    },
+    {
+      "id": "45010",
+      "reference": "ISO 45010:2026",
+      "topic": "Menstruación y menopausia en el trabajo",
+      "rss": "https://www.iso.org/es/contents/data/standard/06/43/64365.detail.rss",
+      "page": "https://www.iso.org/es/norma/45010"
+    }
+  ]
+}
