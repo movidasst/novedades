@@ -1,0 +1,36 @@
+name: Actualizar RSS ISO
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Consultar RSS oficiales
+        run: python scripts/update_feeds.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "movidasst-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/updates.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Actualiza novedades ISO desde RSS"
+            git push
+          fi
