@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-30T20:30:00Z",
+  "items": [
+    {
+      "id": "45001-rev",
+      "reference": "ISO/DIS 45001",
+      "topic": "Revisión de ISO 45001",
+      "stage": "40.60",
+      "pubDate": "2026-09-09",
+      "title": "Occupational health and safety management systems — Requirements with guidance for use",
+      "description": "Cierre de la votación del DIS.",
+      "link": "https://www.iso.org/es/norma/45001/rev"
+    },
+    {
+      "id": "45010",
+      "reference": "ISO 45010:2026",
+      "topic": "Menstruación y menopausia en el trabajo",
+      "stage": "60.60",
+      "pubDate": "2026-09-07",
+      "title": "Occupational health and safety management — Menstruation and menopause in the workplace — Guidance",
+      "description": "Norma Internacional publicada.",
+      "link": "https://www.iso.org/es/norma/45010"
+    },
+    {
+      "id": "45008",
+      "reference": "ISO/DIS 45008",
+      "topic": "Trabajo remoto",
+      "stage": "40.60",
+      "pubDate": "2026-05-19",
+      "title": "Occupational health and safety management — Guidelines for remote working",
+      "description": "Cierre de la votación.",
+      "link": "https://www.iso.org/es/contents/data/standard/06/43/64363.html"
+    },
+    {
+      "id": "45009",
+      "reference": "ISO/AWI 45009",
+      "topic": "Liderazgo y gobernanza en SST",
+      "stage": "20.00",
+      "pubDate": "2026-04-27",
+      "title": "Occupational health and safety management — Leadership and governance in an occupational health and safety management system — Top management guidance",
+      "description": "Nuevo proyecto registrado en el programa de trabajo del TC/SC.",
+      "link": "https://www.iso.org/es/contents/data/standard/09/09/90906.html"
+    },
+    {
+      "id": "45003",
+      "reference": "ISO 45003:2021",
+      "topic": "Riesgos psicosociales",
+      "stage": "90.20",
+      "pubDate": "2026-04-15",
+      "title": "Psychological health and safety at work — Guidelines for managing psychosocial risks",
+      "description": "Norma Internacional en proceso de revisión sistemática.",
+      "link": "https://www.iso.org/es/contents/data/standard/06/42/64283.html"
+    },
+    {
+      "id": "45007",
+      "reference": "ISO/PAS 45007:2026",
+      "topic": "Cambio climático y SST",
+      "stage": "60.60",
+      "pubDate": "2026-01-14",
+      "title": "Occupational health and safety management — Risks arising from climate change and climate change action — Guidance for organizations",
+      "description": "Publicación de la primera edición.",
+      "link": "https://www.iso.org/es/contents/data/standard/08/93/89309.html"
+    },
+    {
+      "id": "45004",
+      "reference": "ISO 45004:2024",
+      "topic": "Evaluación del desempeño SST",
+      "stage": "60.60",
+      "pubDate": "2024-03-14",
+      "title": "Occupational health and safety management — Guidelines on performance evaluation",
+      "description": "Norma Internacional publicada.",
+      "link": "https://www.iso.org/es/contents/data/standard/06/42/64285.html"
+    },
+    {
+      "id": "45005",
+      "reference": "ISO/PAS 45005:2020",
+      "topic": "Trabajo seguro y COVID-19",
+      "stage": "90.60",
+      "pubDate": "2024-03-04",
+      "title": "Occupational health and safety management — General guidelines for safe working during the COVID-19 pandemic",
+      "description": "Cierre de la revisión sistemática.",
+      "link": "https://www.iso.org/es/contents/data/standard/06/42/64286.html"
+    },
+    {
+      "id": "45006",
+      "reference": "ISO 45006:2023",
+      "topic": "Enfermedades infecciosas",
+      "stage": "60.60",
+      "pubDate": "2023-12-20",
+      "title": "Occupational health and safety management — Guidelines for organizations on preventing, controlling and managing infectious diseases",
+      "description": "Norma Internacional publicada.",
+      "link": "https://www.iso.org/es/contents/data/standard/06/43/64361.html"
+    },
+    {
+      "id": "45002",
+      "reference": "ISO 45002:2023",
+      "topic": "Implementación de ISO 45001",
+      "stage": "60.60",
+      "pubDate": "2023-02-13",
+      "title": "Occupational health and safety management systems — General guidelines for the implementation of ISO 45001:2018",
+      "description": "Norma Internacional publicada.",
+      "link": "https://www.iso.org/es/contents/data/standard/07/66/76619.html"
+    }
+  ]
+}
