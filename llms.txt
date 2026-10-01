@@ -1,0 +1,17 @@
+# Novedades ISO SST · La Movida de SST+
+
+> Radar de normas y proyectos ISO relevantes para Seguridad y Salud en el Trabajo.
+
+URL principal: https://novedades.movidasst.com/
+Organización: La Movida de SST+
+Sitio principal: https://www.movidasst.com/
+
+## Contenido
+- Seguimiento de proyectos y normas ISO relevantes para SST.
+- Estados y etapas de desarrollo: AWI, WD, CD, DIS, FDIS, publicación y revisión.
+- Áreas: gestión SST, higiene ocupacional, ergonomía, señalización y emergencias.
+- Datos derivados de metadatos públicos y RSS oficiales de ISO.org.
+- Cada tarjeta enlaza a su fuente oficial en ISO.org.
+
+## Nota
+Este radar es una iniciativa independiente de La Movida de SST+ y no reemplaza las fichas oficiales de ISO.org.
