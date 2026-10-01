@@ -110,6 +110,24 @@
 .gloss-back,.gloss-entry{display:inline-block;margin-top:16px;padding:12px 0;font-weight:700;color:var(--teal)}.stage-link{color:var(--teal);text-underline-offset:3px}.stage-link:focus-visible,.glossary a:focus-visible,.gloss-group summary:focus-visible{outline:3px solid var(--yellow);outline-offset:4px}
 @media(max-width:720px){.gloss-stages{grid-template-columns:1fr 1fr}.gloss-terms{grid-template-columns:1fr}.gloss-example{padding:20px}.gloss-group summary{font-size:16px}.gloss-body{padding:0 16px 16px}}
 
+
+/* Invitaciones a la comunidad */
+.community-strip{width:min(1320px,calc(100% - 40px));margin:40px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.community-card{min-width:0;padding:clamp(24px,3vw,36px);border-radius:24px;display:flex;flex-direction:column;align-items:flex-start}
+.community-whatsapp{background:linear-gradient(135deg,#edfff4,#dff7ec);border:1px solid #b6e6cd}
+.community-register{background:linear-gradient(125deg,#00205b,#00616b);color:#fff;border:1px solid #164674}
+.community-tag{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.09em;font-weight:800;line-height:1.5;color:#09623b}
+.community-tag svg,.community-button svg{width:24px;height:24px;flex-shrink:0}.community-register .community-tag{color:#d2eff0}
+.community-plus{width:28px;height:28px;flex-shrink:0;display:grid;place-items:center;border-radius:9px;background:var(--yellow);color:var(--navy);font-size:24px;line-height:1}
+.community-card h2{font-size:clamp(25px,2.5vw,34px);line-height:1.12;letter-spacing:-.025em;margin:18px 0 12px;color:var(--navy);max-width:490px}
+.community-register h2{color:#fff}.community-accent{color:var(--yellow)}.community-card p{font-size:16px;line-height:1.6;margin:0 0 24px;color:#36574a;max-width:520px}.community-register p{color:#dfedf5}
+.community-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 20px;border-radius:13px;text-decoration:none;font-weight:800;font-size:15px;line-height:1.4;margin-top:auto;transition:background .15s,transform .15s}
+.whatsapp-button{background:#087a45;color:#fff;box-shadow:0 6px 16px #087a451f}.whatsapp-button:hover{background:#056238}
+.register-button{background:var(--yellow);color:var(--navy)}.register-button:hover{background:#ffd065}
+.community-button:hover{transform:translateY(-2px)}.community-button:focus-visible{outline:3px solid #007b85;outline-offset:4px}.community-register .community-button:focus-visible{outline-color:#fff}
+@media(max-width:720px){.community-strip{grid-template-columns:1fr;gap:16px;margin-top:28px}.community-button{width:100%;padding:14px 12px}.community-tag{font-size:10px}.community-card h2{font-size:28px}}
+@media(prefers-reduced-motion:reduce){.community-button{transition:none}.community-button:hover{transform:none}}
+
 </style>
 </head>
 <body>
@@ -139,6 +157,22 @@
 </section>
 
 <section class="stats"><article><span id="countTotal">—</span><small>normas y proyectos vigilados</small></article><article><span id="countDev">—</span><small>en desarrollo</small></article><article><span id="countPub">—</span><small>publicadas / confirmadas</small></article><article><span id="countReview">—</span><small>en revisión</small></article></section>
+
+
+<section class="community-strip" id="comunidad" aria-label="Conecta con La Movida de SST Plus">
+  <article class="community-card community-whatsapp">
+    <div class="community-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l1.9-5.4A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8 8c0 4 4 8 8 8l1-2-3-1-1 1-3-3 1-1-1-3Z"/></svg><span>CANAL DE WHATSAPP</span></div>
+    <h2>La conversación sobre SST sigue aquí.</h2>
+    <p>Únete al canal de La Movida de SST+ y sigue nuestras publicaciones, novedades y preguntas para compartir conocimiento.</p>
+    <a class="community-button whatsapp-button" href="https://whatsapp.com/channel/0029Va0mlH5Jf05mrcCz8r3e" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l1.9-5.4A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8 8c0 4 4 8 8 8l1-2-3-1-1 1-3-3 1-1-1-3Z"/></svg><span>Unirme al canal de WhatsApp</span><span aria-hidden="true">↗</span></a>
+  </article>
+  <article class="community-card community-register">
+    <div class="community-tag"><span class="community-plus" aria-hidden="true">+</span><span>COMUNIDAD DE APRENDIZAJE COLABORATIVO</span></div>
+    <h2>Haz parte de La Movida de SST<span class="community-accent">+</span></h2>
+    <p>¿Todavía no eres integrante? Regístrate y empieza a formar parte de nuestra comunidad de profesionales y personas interesadas en la prevención.</p>
+    <a class="community-button register-button" href="https://registro.movidasst.com/" target="_blank" rel="noopener noreferrer"><span>Quiero registrarme</span><span aria-hidden="true">↗</span></a>
+  </article>
+</section>
 
 <section class="section" id="radar">
 <div class="head"><div><span class="kicker">ÚLTIMOS CAMBIOS</span><h2>Radar ISO SST</h2></div><p>Busca por número, tema, etapa o área. Cada tarjeta enlaza a la ficha oficial de ISO.</p></div>
