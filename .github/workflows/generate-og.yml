@@ -1,0 +1,37 @@
+name: Generar imagen social
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_og.py"
+      - ".github/workflows/generate-og.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar Pillow
+        run: pip install pillow
+      - name: Generar OG
+        run: python scripts/generate_og.py
+      - name: Guardar imagen
+        run: |
+          git config user.name "movidasst-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add og-novedades-iso-sst.jpg
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Actualiza imagen social del Radar ISO SST"
+            git push
+          fi
