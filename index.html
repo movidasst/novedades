@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#00205b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Novedades SST">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="https://www.movidasst.com/logo-oficial-movida-sst-plus.png">
 <title>Novedades ISO en SST | Radar de normas y proyectos · La Movida de SST+</title>
 <meta name="description" content="Radar de novedades ISO en Seguridad y Salud en el Trabajo. Sigue proyectos, cambios de etapa, publicaciones y revisiones de normas relevantes para profesionales de SST.">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -128,15 +133,83 @@
 @media(max-width:720px){.community-strip{grid-template-columns:1fr;gap:16px;margin-top:28px}.community-button{width:100%;padding:14px 12px}.community-tag{font-size:10px}.community-card h2{font-size:28px}}
 @media(prefers-reduced-motion:reduce){.community-button{transition:none}.community-button:hover{transform:none}}
 
+
+/* Experiencia Movida 2026: navegación por pestañas, móvil primero */
+html{scroll-padding-top:86px}body{overflow-x:hidden;background:#f8fafc}
+.top{height:70px;padding:8px clamp(15px,4vw,54px);background:#fff;border-bottom:1px solid #e2ebee}
+.brand{display:flex;align-items:center;gap:10px;min-width:0}.brand-logo{width:45px;height:45px;object-fit:contain;flex:none}.brand-name{min-width:0}.brand strong{font-size:19px;line-height:1.05;white-space:nowrap}.brand small{font-size:10px;margin-top:4px}
+.nav{display:none!important}.top:after{content:"RADAR ISO SST";font-size:10px;letter-spacing:.12em;color:var(--teal);font-weight:800;white-space:nowrap}
+.app-shell{min-height:calc(100svh - 140px);padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+.view-panel[hidden],.guide-page[hidden]{display:none!important}.view-panel{animation:viewIn .2s ease-out}@keyframes viewIn{from{opacity:.65;transform:translateY(5px)}to{opacity:1;transform:none}}
+#panel-radar .hero{min-height:0;margin:15px 14px 0;border-radius:23px;padding:26px 22px;grid-template-columns:minmax(0,1fr);gap:8px;background:radial-gradient(circle at 95% 0%,rgba(255,182,0,.19),transparent 31%),linear-gradient(125deg,#e9f7f7,#f4f8fe);border:1px solid #cce5e7}
+#panel-radar .hero h1{font-size:clamp(32px,5vw,52px);line-height:1.07;letter-spacing:-.038em;margin:10px 0 13px;max-width:750px}
+#panel-radar .hero p{font-size:15px;line-height:1.55;margin:0 0 17px;max-width:680px}
+#panel-radar .hero .eyebrow{font-size:10px;letter-spacing:.1em}
+#panel-radar .hero .btn{padding:11px 14px;border-radius:12px;font-size:12px;line-height:1.4;margin:0 7px 8px 0}
+#panel-radar .hero .live{font-size:11px;margin-top:8px;flex-wrap:wrap}
+#panel-radar .visual.logo-static{display:none!important}
+.stats{margin:12px 14px 0;width:calc(100% - 28px);grid-template-columns:repeat(2,minmax(0,1fr));box-shadow:none;border-radius:18px}
+.stats article{padding:15px;min-width:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats article:nth-child(even){border-right:0}.stats article:nth-last-child(-n+2){border-bottom:0}.stats span{font-size:27px}.stats small{font-size:11px;line-height:1.35;display:block;margin-top:4px}
+.section{padding:28px 15px 34px;max-width:1160px;scroll-margin-top:80px}
+.head{display:block;margin-bottom:16px}.head h2{font-size:clamp(25px,3.5vw,36px);line-height:1.12;margin:5px 0 0}.head p{font-size:13px;margin:9px 0 0;line-height:1.55}
+.kicker{font-size:10px;letter-spacing:.13em}
+.toolbar{grid-template-columns:minmax(0,1fr);gap:10px;margin-bottom:12px}
+.search,.select{border-radius:12px;min-width:0}.search input{min-width:0;font-size:14px;padding:13px 2px}
+.select{font-size:14px;padding:12px}
+.filters{overflow-x:auto;flex-wrap:nowrap;gap:8px;padding-bottom:7px;margin-bottom:3px;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}
+.chip{flex:none;white-space:nowrap;padding:9px 13px;border-radius:11px;font-size:12px}
+.gloss-entry{font-size:12px;text-decoration:none;margin:7px 0 10px;display:inline-flex}
+.resultline{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:10px 1px 15px;font-size:12px;color:var(--muted)}
+.resultline button{font:700 12px Outfit,system-ui;background:transparent;border:0;color:var(--teal);cursor:pointer;padding:6px 0;white-space:nowrap}
+.cards{grid-template-columns:1fr;gap:13px}.card{min-height:0;padding:17px;border-radius:17px;box-shadow:0 5px 18px rgba(0,32,91,.035)}
+.card .topline{align-items:start;flex-wrap:wrap}.ref{font-size:19px;line-height:1.2;overflow-wrap:anywhere}.badge{font-size:10px}
+.cat{font-size:10px;margin-top:9px}.topic{font-size:15px;margin:11px 0 5px}.title{font-size:13px;overflow-wrap:anywhere}.meta{margin-top:14px;gap:7px}.meta div{min-width:0;padding:10px 9px}.meta small{font-size:9px}.meta b{font-size:12px;overflow-wrap:anywhere}.desc{font-size:12px;line-height:1.6}.actions{font-size:11px;gap:8px}.actions a{font-size:12px}
+.area-bg,.stage-bg{background:transparent}.area-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.area{padding:14px;border-radius:16px;min-width:0}.area i{font-size:22px}.area b{font-size:14px;margin-top:8px;line-height:1.2}.area span{font-size:11px}.area strong{font-size:20px;margin-top:8px}
+.stages{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.stage{padding:16px 8px}.stage b{font-size:26px}.stage span{font-size:13px}.stage small{font-size:11px}
+.guide-intro{padding:29px 18px 8px;max-width:1160px;margin:auto}.guide-intro h1{font-size:clamp(29px,4.5vw,44px);line-height:1.1;letter-spacing:-.03em;margin:10px 0}.guide-intro p{font-size:14px;line-height:1.55;max-width:650px;margin:0;color:var(--muted)}
+.guide-switch{display:flex;gap:8px;overflow-x:auto;padding:12px 15px 0;margin:auto;max-width:1160px;scrollbar-width:none}
+.guide-btn{font:700 13px Outfit,system-ui;padding:11px 15px;color:var(--navy);background:white;border:1px solid var(--line);border-radius:12px;cursor:pointer;white-space:nowrap}
+.guide-btn.active{background:var(--teal);color:white;border-color:var(--teal)}
+.glossary .gloss-example{padding:17px}.glossary h3{font-size:20px}.glossary p{font-size:13px}.gloss-group summary{padding:16px;font-size:14px}.gloss-group summary::marker{color:var(--teal)}
+.gloss-stages{grid-template-columns:repeat(2,minmax(0,1fr))}.gloss-terms{grid-template-columns:1fr}.gloss-term{padding:14px}.gloss-term dt{font-size:18px}
+.sources{grid-template-columns:1fr}.source{min-width:0;gap:10px}.source b{font-size:13px;overflow-wrap:anywhere}.source small{font-size:11px}.source a{font-size:12px;flex:none}
+.community-strip{margin:12px auto 0;width:calc(100% - 30px);max-width:1100px;grid-template-columns:1fr;gap:12px}.community-card{padding:21px;border-radius:19px}.community-card h2{font-size:24px;margin:12px 0}.community-card p{font-size:14px}.community-button{min-height:44px;font-size:13px;padding:11px 15px;width:100%}
+.install-card{width:calc(100% - 30px);max-width:1100px;margin:14px auto 26px;padding:21px;display:flex;gap:15px;align-items:flex-start;border:1px solid #cbe0e8;border-radius:19px;background:#fff}
+.install-icon{display:grid;place-items:center;width:44px;height:44px;background:var(--teal);border-radius:13px;color:var(--yellow);font-size:32px;font-weight:800;flex:none}
+.install-card h2{font-size:22px;color:var(--navy);margin:8px 0}.install-card p{font-size:13px;line-height:1.55;margin:0 0 14px}.install-button{border:0;border-radius:12px;background:var(--navy);color:#fff;font:700 13px Outfit,system-ui;padding:13px 17px;cursor:pointer}.install-card .install-help{padding:12px;margin-top:12px;background:#eef8f8;color:var(--navy);border-radius:10px}
+footer{padding:21px 16px;background:var(--navy);font-size:12px;gap:8px}
+.bottom-nav{position:fixed;inset:auto 0 0;background:var(--navy);color:#c9e4e9;z-index:60;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:7px max(6px,env(safe-area-inset-left)) calc(8px + env(safe-area-inset-bottom)) max(6px,env(safe-area-inset-right));box-shadow:0 -4px 18px rgba(0,32,91,.12);border-top:2px solid #006c78}
+.tab-btn{appearance:none;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;min-width:0;min-height:52px;border:0;border-radius:12px;background:transparent;color:inherit;font:600 11px Outfit,system-ui;cursor:pointer}
+.tab-btn svg{width:22px;height:22px;flex:none}.tab-btn.active{background:#ffffff19;color:#fff;font-weight:800}.tab-btn.active svg{color:var(--yellow)}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--yellow)!important;outline-offset:3px}
+@media(min-width:740px){
+ .top{height:82px}.top:after{font-size:12px}.brand strong{font-size:22px}.brand-logo{height:55px;width:55px}
+ #panel-radar .hero{margin:22px auto 0;width:min(1160px,calc(100% - 40px));padding:36px 40px}
+ .stats{width:min(1160px,calc(100% - 40px));margin:16px auto 0;grid-template-columns:repeat(4,1fr)}
+ .stats article{border-bottom:0!important;border-right:1px solid var(--line)!important;padding:19px 23px}.stats article:last-child{border-right:0!important}
+ .section{padding:37px 20px 48px}.head{display:flex;align-items:end;gap:30px}.head p{max-width:400px;margin:0}
+ .toolbar{grid-template-columns:minmax(0,1fr) 250px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .area-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.stages{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .community-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .bottom-nav{padding-inline:max(8%,calc((100% - 700px)/2))}
+}
+@media(min-width:1120px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.area-grid{grid-template-columns:repeat(5,minmax(0,1fr))}#panel-radar .hero{grid-template-columns:minmax(0,1fr) 200px;align-items:center}#panel-radar .visual.logo-static{display:grid!important;min-height:0;height:180px}#panel-radar .logo-frame{width:180px}#panel-radar .hero-logo{width:180px;height:180px}}
+@media(max-width:400px){.top:after{font-size:9px;letter-spacing:0}.brand strong{font-size:17px}.brand-logo{width:38px;height:38px}.stats small{font-size:10px}.tab-btn{font-size:10px}.install-card{gap:10px}.install-icon{width:36px;height:36px}}
+@media(prefers-reduced-motion:reduce){.view-panel{animation:none}html{scroll-behavior:auto}}
+
 </style>
 <script defer src="https://www.movidasst.com/analytics.js?v=20261025-ga4com2"></script>
 </head>
 <body>
 <header class="top">
-<a class="brand" href="https://www.movidasst.com"><strong>La Movida de <em>SST</em><b>+</b></strong><small>De la reacción a la prevención</small></a>
-<nav class="nav"><a href="#radar">Radar</a><a href="#areas">Áreas</a><a href="#etapas">Etapas</a><a href="#glosario">Glosario</a></nav>
+<a class="brand" href="https://www.movidasst.com" target="_blank" rel="noopener noreferrer"><img class="brand-logo" src="https://www.movidasst.com/logo-oficial-movida-sst-plus.png" width="48" height="48" alt="" decoding="async"><span class="brand-name"><strong>La Movida de <em>SST</em><b>+</b></strong><small>De la Reacción a la Prevención</small></span></a>
+<nav class="nav" aria-label="Accesos directos"><a href="#radar">Radar</a><a href="#areas">Áreas</a><a href="#etapas">Etapas</a><a href="#glosario">Glosario</a></nav>
 </header>
 
+<main id="mainContent" class="app-shell">
+<div class="view-panel is-active" id="panel-radar" data-panel="radar" role="tabpanel" aria-labelledby="tab-radar">
 <section class="hero">
 <div><div class="eyebrow">RADAR ISO · SEGURIDAD Y SALUD EN EL TRABAJO</div><h1>Novedades ISO en SST, <span>sin perderles la pista.</span></h1><p>Seguimos automáticamente normas y proyectos de gestión SST, higiene ocupacional, ergonomía, señalización y emergencias mediante los RSS oficiales de ISO.org.</p><a class="btn primary" href="#radar">Ver novedades</a><a class="btn ghost" href="#glosario">Entender etapas y siglas</a><div class="live"><span class="pulse"></span><span id="lastUpdate">Cargando actualización…</span></div></div>
 <div class="visual logo-static">
@@ -160,6 +233,50 @@
 <section class="stats"><article><span id="countTotal">—</span><small>normas y proyectos vigilados</small></article><article><span id="countDev">—</span><small>en desarrollo</small></article><article><span id="countPub">—</span><small>publicadas / confirmadas</small></article><article><span id="countReview">—</span><small>en revisión</small></article></section>
 
 
+<section class="section" id="radar">
+<div class="head"><div><span class="kicker">ÚLTIMOS CAMBIOS</span><h2>Radar ISO SST</h2></div><p>Busca por número, tema, etapa o área. Cada tarjeta enlaza a la ficha oficial de ISO.</p></div>
+<div class="toolbar"><label class="search"><input id="searchInput" type="search" placeholder="Buscar ISO 45008, ruido, WBGT, vibraciones…"></label><select id="categorySelect" class="select"><option value="all">Todas las áreas</option><option value="gestion">Gestión SST</option><option value="higiene">Higiene ocupacional</option><option value="ergonomia">Ergonomía</option><option value="senalizacion">Señalización</option><option value="emergencias">Emergencias</option></select></div>
+<div class="filters"><button class="chip active" data-filter="all">Todas</button><button class="chip" data-filter="development">En desarrollo</button><button class="chip" data-filter="published">Publicadas / confirmadas</button><button class="chip" data-filter="review">En revisión</button></div>
+<a class="gloss-entry" href="#glosario">¿Qué significan las etapas y siglas? Consulta el glosario ISO →</a>
+<div class="resultline"><span id="resultCount" role="status" aria-live="polite">Consultando novedades…</span><button id="resetFilters" type="button">Limpiar filtros</button></div><div id="cards" class="cards"></div><div id="empty" class="empty" hidden>No encontramos coincidencias.</div>
+</section>
+
+
+</div>
+<div class="view-panel" id="panel-areas" data-panel="areas" role="tabpanel" aria-labelledby="tab-areas" hidden>
+<section class="section area-bg" id="areas"><div class="head"><div><span class="kicker">MÁS ALLÁ DE LA FAMILIA 45000</span><h2>Áreas que estamos vigilando</h2></div><p>El radar incluye documentos relevantes para la práctica diaria del profesional de SST.</p></div><div id="areaGrid" class="area-grid"></div></section>
+
+
+</div>
+<div class="view-panel" id="panel-guia" data-panel="guia" role="tabpanel" aria-labelledby="tab-guia" hidden>
+<div class="guide-intro"><span class="kicker">CONSULTA TÉCNICA</span><h1>Comprende cada cambio ISO.</h1><p>Identifica las etapas de desarrollo, consulta las siglas y accede a las fuentes oficiales.</p></div>
+<div class="guide-switch" role="tablist" aria-label="Secciones de la guía"><button type="button" class="guide-btn active" data-guide="etapas" aria-selected="true">Etapas ISO</button><button type="button" class="guide-btn" data-guide="glosario" aria-selected="false">Glosario</button><button type="button" class="guide-btn" data-guide="fuentes" aria-selected="false">Fuentes</button></div>
+<div class="guide-page" data-guide-page="etapas"><section class="section stage-bg" id="etapas"><div class="head"><div><span class="kicker">CÓMO LEER EL ESTADO</span><h2>El recorrido de una ISO</h2></div><p>La cifra de etapa permite saber en qué punto del desarrollo está el documento.</p></div><div class="stages"><div class="stage"><b>20</b><span>Preparación</span><small>AWI / WD</small></div><div class="stage"><b>30</b><span>Comité</span><small>CD</small></div><div class="stage"><b>40</b><span>Consulta</span><small>DIS</small></div><div class="stage"><b>50</b><span>Aprobación</span><small>FDIS</small></div><div class="stage"><b>60</b><span>Publicación</span><small>ISO / PAS</small></div><div class="stage"><b>90</b><span>Revisión</span><small>Revisión sistemática</small></div></div><div class="note"><strong>Importante:</strong> PAS es un tipo de publicación ISO, no una etapa de borrador. En la etapa 90 también hay que mirar los decimales: 90.20/90.60 indican revisión; 90.93 significa norma confirmada.</div></section>
+
+
+</div>
+<div class="guide-page" data-guide-page="glosario" hidden><section class="section glossary" id="glosario" aria-labelledby="glossaryTitle">
+<div class="head"><div><span class="kicker">GUÍA PARA LEER EL RADAR</span><h2 id="glossaryTitle">Glosario ISO</h2></div><p>¿Qué significa 50.00? ¿Qué diferencia hay entre DIS y PAS? Consulta aquí los códigos y las siglas.</p></div>
+<div class="gloss-example"><h3>Cómo leer <strong>50.00</strong></h3><p><b>50</b> identifica la etapa de aprobación y <b>.00</b> su registro inicial. El texto final se ha recibido o el FDIS se ha registrado para aprobación formal.</p><p><strong>Aún no significa «publicado».</strong> El código expresa un estado del proceso, no un porcentaje de avance ni una fecha de publicación.</p></div>
+<details class="gloss-group"><summary>Etapas y códigos frecuentes</summary>
+<div class="gloss-body"><p>Los dos primeros dígitos indican la etapa; los dos siguientes precisan la subetapa. Lee siempre el código completo.</p>
+<div class="gloss-stages"><div><b>00</b><span>Preliminar</span></div><div><b>10</b><span>Propuesta</span></div><div><b>20</b><span>Preparación</span></div><div><b>30</b><span>Comité</span></div><div><b>40</b><span>Consulta</span></div><div><b>50</b><span>Aprobación</span></div><div><b>60</b><span>Publicación</span></div><div><b>90</b><span>Revisión</span></div><div><b>95</b><span>Retirada</span></div></div>
+<dl class="gloss-codes"><div><dt>20.00</dt><dd>Proyecto incorporado al programa de trabajo.</dd></div><div><dt>30.00</dt><dd>CD registrado.</dd></div><div><dt>40.00</dt><dd>DIS registrado.</dd></div><div><dt>40.20</dt><dd>Votación del DIS abierta.</dd></div><div><dt>40.60</dt><dd>Votación cerrada; no implica aprobación.</dd></div><div><dt>50.00</dt><dd>Texto final recibido o FDIS registrado para aprobación formal.</dd></div><div><dt>50.20</dt><dd>Prueba enviada a secretaría o votación del FDIS abierta.</dd></div><div><dt>50.99</dt><dd>Texto aprobado para publicación.</dd></div><div><dt>60.00</dt><dd>Publicación en preparación.</dd></div><div><dt>60.60</dt><dd>Documento publicado.</dd></div><div><dt>90.20</dt><dd>Revisión sistemática en curso.</dd></div><div><dt>90.60</dt><dd>Revisión finalizada; consultar decisión.</dd></div><div><dt>90.92</dt><dd>Se decide revisar el documento.</dd></div><div><dt>90.93</dt><dd>Documento confirmado.</dd></div><div><dt>90.99</dt><dd>Retirada propuesta.</dd></div><div><dt>95.99</dt><dd>Documento retirado.</dd></div></dl>
+<p class="helper">Selección de códigos habituales. Consulta todas las subetapas en la <a href="https://www.iso.org/stage-codes.html" target="_blank" rel="noopener">tabla oficial de ISO ↗</a>.</p></div></details>
+<details class="gloss-group"><summary>Siglas de proyectos y borradores: AWI, WD, CD, DIS y FDIS</summary><div class="gloss-body"><dl class="gloss-terms"><div class="gloss-term"><dt>NP / NWIP<span lang="en">New Work Item Proposal</span></dt><dd>Propuesta de nuevo trabajo. Se plantea desarrollar un documento.</dd></div><div class="gloss-term"><dt>AWI<span lang="en">Approved Work Item</span></dt><dd>Trabajo aprobado. El proyecto entra al programa de desarrollo.</dd></div><div class="gloss-term"><dt>WD<span lang="en">Working Draft</span></dt><dd>Borrador de trabajo. Los expertos preparan el texto.</dd></div><div class="gloss-term"><dt>CD<span lang="en">Committee Draft</span></dt><dd>Borrador de comité. Se consulta dentro del comité para construir consenso.</dd></div><div class="gloss-term"><dt>DIS<span lang="en">Draft International Standard</span></dt><dd>Proyecto de Norma Internacional. Se somete a consulta y votación de los miembros de ISO.</dd></div><div class="gloss-term"><dt>FDIS<span lang="en">Final Draft International Standard</span></dt><dd>Proyecto final de Norma Internacional. Se presenta para aprobación final; todavía no es la publicación definitiva.</dd></div></dl><p class="helper">El recorrido puede omitir determinadas etapas según el procedimiento aplicable. <a href="https://www.iso.org/sites/directives/current/consolidated/index.html" target="_blank" rel="noopener">Directivas ISO/IEC ↗</a></p></div></details>
+<details class="gloss-group"><summary>Tipos de documentos: IS, PAS, TS, TR e IWA</summary><div class="gloss-body"><dl class="gloss-terms"><div class="gloss-term"><dt>IS<span lang="en">International Standard</span></dt><dd>Norma Internacional. Puede establecer requisitos, métodos o directrices.</dd></div><div class="gloss-term"><dt>PAS<span lang="en">Publicly Available Specification</span></dt><dd>Especificación disponible públicamente. Responde a necesidades urgentes y se publica para uso inmediato; puede evolucionar a Norma Internacional.</dd></div><div class="gloss-term"><dt>TS<span lang="en">Technical Specification</span></dt><dd>Especificación técnica. Se utiliza cuando el desarrollo técnico o el consenso aún no permiten una Norma Internacional.</dd></div><div class="gloss-term"><dt>TR<span lang="en">Technical Report</span></dt><dd>Informe técnico. Presenta información, datos o el estado del conocimiento sobre un tema.</dd></div><div class="gloss-term"><dt>IWA<span lang="en">International Workshop Agreement</span></dt><dd>Acuerdo de taller internacional. Se desarrolla mediante talleres con las partes interesadas.</dd></div></dl><p><strong>PAS es un tipo de documento, no una etapa.</strong> Una referencia con PAS también puede llevar un prefijo de proyecto. Comprueba el código y la ficha para saber si está publicado.</p><p class="helper"><a href="https://www.iso.org/deliverables-all.html" target="_blank" rel="noopener">Tipos de publicaciones según ISO ↗</a></p></div></details>
+<a class="gloss-back" href="#radar">↑ Volver al radar</a>
+</section>
+
+
+
+</div>
+<div class="guide-page" data-guide-page="fuentes" hidden><section class="section" id="fuentes"><div class="head"><div><span class="kicker">TRANSPARENCIA</span><h2>Fuentes oficiales</h2></div><p>La página resume metadatos públicos y remite siempre a ISO.org.</p></div><div id="sources" class="sources"></div></section>
+
+</div>
+</div>
+<div class="view-panel" id="panel-comunidad" data-panel="comunidad" role="tabpanel" aria-labelledby="tab-comunidad" hidden>
+<div class="guide-intro"><span class="kicker">LA MOVIDA DE SST+</span><h1>Una comunidad que comparte conocimiento.</h1><p>Conecta con profesionales de SST y accede a las iniciativas de La Movida.</p></div>
 <section class="community-strip" id="comunidad" aria-label="Conecta con La Movida de SST Plus">
   <article class="community-card community-whatsapp">
     <div class="community-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l1.9-5.4A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8 8c0 4 4 8 8 8l1-2-3-1-1 1-3-3 1-1-1-3Z"/></svg><span>CANAL DE WHATSAPP</span></div>
@@ -175,47 +292,62 @@
   </article>
 </section>
 
-<section class="section" id="radar">
-<div class="head"><div><span class="kicker">ÚLTIMOS CAMBIOS</span><h2>Radar ISO SST</h2></div><p>Busca por número, tema, etapa o área. Cada tarjeta enlaza a la ficha oficial de ISO.</p></div>
-<div class="toolbar"><label class="search"><input id="searchInput" type="search" placeholder="Buscar ISO 45008, ruido, WBGT, vibraciones…"></label><select id="categorySelect" class="select"><option value="all">Todas las áreas</option><option value="gestion">Gestión SST</option><option value="higiene">Higiene ocupacional</option><option value="ergonomia">Ergonomía</option><option value="senalizacion">Señalización</option><option value="emergencias">Emergencias</option></select></div>
-<div class="filters"><button class="chip active" data-filter="all">Todas</button><button class="chip" data-filter="development">En desarrollo</button><button class="chip" data-filter="published">Publicadas / confirmadas</button><button class="chip" data-filter="review">En revisión</button></div>
-<a class="gloss-entry" href="#glosario">¿Qué significan las etapas y siglas? Consulta el glosario ISO →</a>
-<div id="cards" class="cards"></div><div id="empty" class="empty" hidden>No encontramos coincidencias.</div>
-</section>
 
-<section class="section area-bg" id="areas"><div class="head"><div><span class="kicker">MÁS ALLÁ DE LA FAMILIA 45000</span><h2>Áreas que estamos vigilando</h2></div><p>El radar incluye documentos relevantes para la práctica diaria del profesional de SST.</p></div><div id="areaGrid" class="area-grid"></div></section>
-
-<section class="section stage-bg" id="etapas"><div class="head"><div><span class="kicker">CÓMO LEER EL ESTADO</span><h2>El recorrido de una ISO</h2></div><p>La cifra de etapa permite saber en qué punto del desarrollo está el documento.</p></div><div class="stages"><div class="stage"><b>20</b><span>Preparación</span><small>AWI / WD</small></div><div class="stage"><b>30</b><span>Comité</span><small>CD</small></div><div class="stage"><b>40</b><span>Consulta</span><small>DIS</small></div><div class="stage"><b>50</b><span>Aprobación</span><small>FDIS</small></div><div class="stage"><b>60</b><span>Publicación</span><small>ISO / PAS</small></div><div class="stage"><b>90</b><span>Revisión</span><small>Revisión sistemática</small></div></div><div class="note"><strong>Importante:</strong> PAS es un tipo de publicación ISO, no una etapa de borrador. En la etapa 90 también hay que mirar los decimales: 90.20/90.60 indican revisión; 90.93 significa norma confirmada.</div></section>
-
-
-<section class="section glossary" id="glosario" aria-labelledby="glossaryTitle">
-<div class="head"><div><span class="kicker">GUÍA PARA LEER EL RADAR</span><h2 id="glossaryTitle">Glosario ISO</h2></div><p>¿Qué significa 50.00? ¿Qué diferencia hay entre DIS y PAS? Consulta aquí los códigos y las siglas.</p></div>
-<div class="gloss-example"><h3>Cómo leer <strong>50.00</strong></h3><p><b>50</b> identifica la etapa de aprobación y <b>.00</b> su registro inicial. El texto final se ha recibido o el FDIS se ha registrado para aprobación formal.</p><p><strong>Aún no significa «publicado».</strong> El código expresa un estado del proceso, no un porcentaje de avance ni una fecha de publicación.</p></div>
-<details class="gloss-group" open><summary>Etapas y códigos frecuentes</summary>
-<div class="gloss-body"><p>Los dos primeros dígitos indican la etapa; los dos siguientes precisan la subetapa. Lee siempre el código completo.</p>
-<div class="gloss-stages"><div><b>00</b><span>Preliminar</span></div><div><b>10</b><span>Propuesta</span></div><div><b>20</b><span>Preparación</span></div><div><b>30</b><span>Comité</span></div><div><b>40</b><span>Consulta</span></div><div><b>50</b><span>Aprobación</span></div><div><b>60</b><span>Publicación</span></div><div><b>90</b><span>Revisión</span></div><div><b>95</b><span>Retirada</span></div></div>
-<dl class="gloss-codes"><div><dt>20.00</dt><dd>Proyecto incorporado al programa de trabajo.</dd></div><div><dt>30.00</dt><dd>CD registrado.</dd></div><div><dt>40.00</dt><dd>DIS registrado.</dd></div><div><dt>40.20</dt><dd>Votación del DIS abierta.</dd></div><div><dt>40.60</dt><dd>Votación cerrada; no implica aprobación.</dd></div><div><dt>50.00</dt><dd>Texto final recibido o FDIS registrado para aprobación formal.</dd></div><div><dt>50.20</dt><dd>Prueba enviada a secretaría o votación del FDIS abierta.</dd></div><div><dt>50.99</dt><dd>Texto aprobado para publicación.</dd></div><div><dt>60.00</dt><dd>Publicación en preparación.</dd></div><div><dt>60.60</dt><dd>Documento publicado.</dd></div><div><dt>90.20</dt><dd>Revisión sistemática en curso.</dd></div><div><dt>90.60</dt><dd>Revisión finalizada; consultar decisión.</dd></div><div><dt>90.92</dt><dd>Se decide revisar el documento.</dd></div><div><dt>90.93</dt><dd>Documento confirmado.</dd></div><div><dt>90.99</dt><dd>Retirada propuesta.</dd></div><div><dt>95.99</dt><dd>Documento retirado.</dd></div></dl>
-<p class="helper">Selección de códigos habituales. Consulta todas las subetapas en la <a href="https://www.iso.org/stage-codes.html" target="_blank" rel="noopener">tabla oficial de ISO ↗</a>.</p></div></details>
-<details class="gloss-group" open><summary>Siglas de proyectos y borradores: AWI, WD, CD, DIS y FDIS</summary><div class="gloss-body"><dl class="gloss-terms"><div class="gloss-term"><dt>NP / NWIP<span lang="en">New Work Item Proposal</span></dt><dd>Propuesta de nuevo trabajo. Se plantea desarrollar un documento.</dd></div><div class="gloss-term"><dt>AWI<span lang="en">Approved Work Item</span></dt><dd>Trabajo aprobado. El proyecto entra al programa de desarrollo.</dd></div><div class="gloss-term"><dt>WD<span lang="en">Working Draft</span></dt><dd>Borrador de trabajo. Los expertos preparan el texto.</dd></div><div class="gloss-term"><dt>CD<span lang="en">Committee Draft</span></dt><dd>Borrador de comité. Se consulta dentro del comité para construir consenso.</dd></div><div class="gloss-term"><dt>DIS<span lang="en">Draft International Standard</span></dt><dd>Proyecto de Norma Internacional. Se somete a consulta y votación de los miembros de ISO.</dd></div><div class="gloss-term"><dt>FDIS<span lang="en">Final Draft International Standard</span></dt><dd>Proyecto final de Norma Internacional. Se presenta para aprobación final; todavía no es la publicación definitiva.</dd></div></dl><p class="helper">El recorrido puede omitir determinadas etapas según el procedimiento aplicable. <a href="https://www.iso.org/sites/directives/current/consolidated/index.html" target="_blank" rel="noopener">Directivas ISO/IEC ↗</a></p></div></details>
-<details class="gloss-group" open><summary>Tipos de documentos: IS, PAS, TS, TR e IWA</summary><div class="gloss-body"><dl class="gloss-terms"><div class="gloss-term"><dt>IS<span lang="en">International Standard</span></dt><dd>Norma Internacional. Puede establecer requisitos, métodos o directrices.</dd></div><div class="gloss-term"><dt>PAS<span lang="en">Publicly Available Specification</span></dt><dd>Especificación disponible públicamente. Responde a necesidades urgentes y se publica para uso inmediato; puede evolucionar a Norma Internacional.</dd></div><div class="gloss-term"><dt>TS<span lang="en">Technical Specification</span></dt><dd>Especificación técnica. Se utiliza cuando el desarrollo técnico o el consenso aún no permiten una Norma Internacional.</dd></div><div class="gloss-term"><dt>TR<span lang="en">Technical Report</span></dt><dd>Informe técnico. Presenta información, datos o el estado del conocimiento sobre un tema.</dd></div><div class="gloss-term"><dt>IWA<span lang="en">International Workshop Agreement</span></dt><dd>Acuerdo de taller internacional. Se desarrolla mediante talleres con las partes interesadas.</dd></div></dl><p><strong>PAS es un tipo de documento, no una etapa.</strong> Una referencia con PAS también puede llevar un prefijo de proyecto. Comprueba el código y la ficha para saber si está publicado.</p><p class="helper"><a href="https://www.iso.org/deliverables-all.html" target="_blank" rel="noopener">Tipos de publicaciones según ISO ↗</a></p></div></details>
-<a class="gloss-back" href="#radar">↑ Volver al radar</a>
-</section>
-
-
-
-<section class="section" id="fuentes"><div class="head"><div><span class="kicker">TRANSPARENCIA</span><h2>Fuentes oficiales</h2></div><p>La página resume metadatos públicos y remite siempre a ISO.org.</p></div><div id="sources" class="sources"></div></section>
-
+<section class="install-card" id="instalar"><div class="install-icon" aria-hidden="true">+</div><div><span class="kicker">ACCESO DESDE TU CELULAR</span><h2>Tu radar ISO, a un toque.</h2><p>Añade Novedades a la pantalla de inicio para consultarlo como una aplicación, sin buscar el enlace cada vez.</p><button id="installApp" class="install-button" type="button">Instalar en mi celular</button><p id="installHelp" class="install-help" hidden></p></div></section>
+</div>
+</main>
 <footer><div><strong>La Movida de SST+</strong><br><small>De la reacción a la prevención</small></div><a href="https://www.movidasst.com">www.movidasst.com</a></footer>
 
+
+<nav class="bottom-nav" role="tablist" aria-label="Secciones de Novedades ISO"><button type="button" class="tab-btn active" id="tab-radar" data-view="radar" role="tab" aria-controls="panel-radar" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 12l6-6"/><circle cx="12" cy="12" r="1"/></svg><span>Radar</span></button><button type="button" class="tab-btn " id="tab-areas" data-view="areas" role="tab" aria-controls="panel-areas" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Áreas</span></button><button type="button" class="tab-btn " id="tab-guia" data-view="guia" role="tab" aria-controls="panel-guia" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5c3-1.5 5.5-1 8 1v13c-2.5-2-5-2.5-8-1zM20 5.5c-3-1.5-5.5-1-8 1v13c2.5-2 5-2.5 8-1z"/></svg><span>Guía</span></button><button type="button" class="tab-btn " id="tab-comunidad" data-view="comunidad" role="tab" aria-controls="panel-comunidad" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2c0-3 2.6-5 6-5s6 2 6 5v2zM16 5.5a3 3 0 0 1 0 5.8M17 14c2.3.2 4 1.8 4 4v2"/></svg><span>Comunidad</span></button></nav>
 <script>
 let items=[],feeds=[],state='all',cat='all';
 const cats={gestion:{label:'Gestión SST',icon:'◉',desc:'Sistemas de gestión, liderazgo, clima, trabajo remoto y riesgos psicosociales.'},higiene:{label:'Higiene ocupacional',icon:'≈',desc:'Ruido, vibraciones, exposición térmica y otros agentes ocupacionales.'},ergonomia:{label:'Ergonomía',icon:'↔',desc:'Manipulación manual, sistemas de trabajo y confort térmico.'},senalizacion:{label:'Señalización',icon:'△',desc:'Colores, símbolos y señales de seguridad.'},emergencias:{label:'Emergencias',icon:'!',desc:'Detección, alarma y respuesta ante incendios y emergencias.'}};
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 function st(x){let s=String(x.stage||''),m=parseInt(s||0);if(m===95)return{b:'withdrawn',l:'Retirada',c:'withdrawn'};if(s==='90.93')return{b:'published',l:'Confirmada',c:'confirmed'};if(m===90)return{b:'review',l:s==='90.92'?'Para revisión':'En revisión',c:'review'};if(m>=60)return{b:'published',l:'Publicada',c:'pub'};return{b:'development',l:'En desarrollo',c:'dev'}}
 function fd(d){if(!d)return'—';return new Intl.DateTimeFormat('es',{day:'2-digit',month:'short',year:'numeric'}).format(new Date(d+'T12:00:00'))}
-function render(){let q=$('#searchInput').value.toLowerCase().trim();let out=items.filter(x=>(state==='all'||st(x).b===state)&&(cat==='all'||x.category===cat)&&(!q||[x.reference,x.topic,x.title,x.description,x.stage,cats[x.category]?.label].join(' ').toLowerCase().includes(q)));$('#cards').innerHTML=out.map(x=>{let s=st(x);return `<article class="card"><div class="topline"><div class="ref">${esc(x.reference)}</div><span class="badge ${s.c}">${s.l}</span></div><span class="cat">${esc(cats[x.category]?.label||'SST')}</span><div class="topic">${esc(x.topic)}</div><div class="title">${esc(x.title)}</div><div class="meta"><div><small>Etapa ISO</small><b><a class="stage-link" href="#glosario" aria-label="Consultar etapa ${esc(x.stage||'sin dato')} en el glosario ISO">${esc(x.stage||'—')} ⓘ</a></b></div><div><small>Último cambio</small><b>${fd(x.pubDate)}</b></div></div><p class="desc">${esc(x.description||'Actualización disponible en ISO.org.')}</p><div class="actions"><span>RSS oficial</span><a href="${esc(x.link)}" target="_blank" rel="noopener">Ver en ISO ↗</a></div></article>`}).join('');$('#empty').hidden=out.length>0}
-function areas(){$('#areaGrid').innerHTML=Object.entries(cats).map(([k,v])=>`<button class="area" data-cat="${k}"><i>${v.icon}</i><b>${v.label}</b><span>${v.desc}</span><strong>${items.filter(x=>x.category===k).length}</strong></button>`).join('');document.querySelectorAll('.area').forEach(b=>b.onclick=()=>{cat=b.dataset.cat;$('#categorySelect').value=cat;render();$('#radar').scrollIntoView({behavior:'smooth'})})}
+function render(){let q=$('#searchInput').value.toLowerCase().trim();let out=items.filter(x=>(state==='all'||st(x).b===state)&&(cat==='all'||x.category===cat)&&(!q||[x.reference,x.topic,x.title,x.description,x.stage,cats[x.category]?.label].join(' ').toLowerCase().includes(q)));$('#cards').innerHTML=out.map(x=>{let s=st(x);return `<article class="card"><div class="topline"><div class="ref">${esc(x.reference)}</div><span class="badge ${s.c}">${s.l}</span></div><span class="cat">${esc(cats[x.category]?.label||'SST')}</span><div class="topic">${esc(x.topic)}</div><div class="title">${esc(x.title)}</div><div class="meta"><div><small>Etapa ISO</small><b><a class="stage-link" href="#glosario" aria-label="Consultar etapa ${esc(x.stage||'sin dato')} en el glosario ISO">${esc(x.stage||'—')} ⓘ</a></b></div><div><small>Último cambio</small><b>${fd(x.pubDate)}</b></div></div><p class="desc">${esc(x.description||'Actualización disponible en ISO.org.')}</p><div class="actions"><span>RSS oficial</span><a href="${esc(x.link)}" target="_blank" rel="noopener">Ver en ISO ↗</a></div></article>`}).join('');$('#empty').hidden=out.length>0;$('#resultCount').textContent=out.length+' resultado'+(out.length===1?'':'s')+' en el radar'}
+function areas(){$('#areaGrid').innerHTML=Object.entries(cats).map(([k,v])=>`<button class="area" data-cat="${k}"><i>${v.icon}</i><b>${v.label}</b><span>${v.desc}</span><strong>${items.filter(x=>x.category===k).length}</strong></button>`).join('');document.querySelectorAll('.area').forEach(b=>b.onclick=()=>{cat=b.dataset.cat;$('#categorySelect').value=cat;render();location.hash='radar'})}
 async function init(){try{let [d,f]=await Promise.all([fetch('data/updates.json?ts='+Date.now()).then(r=>r.json()),fetch('data/feeds.json').then(r=>r.json())]);feeds=f.feeds||[];let fm=Object.fromEntries(feeds.map(x=>[x.id,x]));items=(d.items||[]).map(x=>({...x,category:x.category||fm[x.id]?.category||'gestion'})).sort((a,b)=>(b.pubDate||'').localeCompare(a.pubDate||''));$('#lastUpdate').textContent='Datos actualizados: '+new Intl.DateTimeFormat('es',{dateStyle:'medium',timeStyle:'short'}).format(new Date(d.generated_at));$('#countTotal').textContent=items.length;$('#countDev').textContent=items.filter(x=>st(x).b==='development').length;$('#countPub').textContent=items.filter(x=>st(x).b==='published').length;$('#countReview').textContent=items.filter(x=>st(x).b==='review').length;$('#sources').innerHTML=feeds.map(f=>`<div class="source"><div><b>${esc(f.reference)}</b><small>${esc(cats[f.category]?.label||'SST')}</small></div><a href="${esc(f.page)}" target="_blank" rel="noopener">ISO.org ↗</a></div>`).join('');areas();render()}catch(e){console.error(e);document.getElementById('cards').innerHTML='<div class="empty">No se pudieron cargar las novedades. Actualiza la página en unos segundos.</div>';document.getElementById('lastUpdate').textContent='No se pudo actualizar el radar';}}
 $('#searchInput').oninput=render;$('#categorySelect').onchange=e=>{cat=e.target.value;render()};document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));b.classList.add('active');state=b.dataset.filter;render()});init();
+</script>
+
+<script>
+/* Navegación real por pestañas: el radar y sus datos siguen siendo los originales. */
+(function(){
+  const routes={radar:['radar',null],areas:['areas',null],etapas:['guia','etapas'],glosario:['guia','glosario'],fuentes:['guia','fuentes'],guia:['guia','etapas'],comunidad:['comunidad',null],instalar:['comunidad',null]};
+  function showRoute(){
+    const route=decodeURIComponent(location.hash.slice(1)).toLowerCase();
+    const [view,sub]=routes[route]||routes.radar;
+    document.querySelectorAll('[data-panel]').forEach(el=>{const on=el.dataset.panel===view;el.hidden=!on;el.classList.toggle('is-active',on)});
+    document.querySelectorAll('[data-view]').forEach(el=>{const on=el.dataset.view===view;el.classList.toggle('active',on);el.setAttribute('aria-selected',String(on))});
+    document.querySelectorAll('[data-guide-page]').forEach(el=>el.hidden=el.dataset.guidePage!==(sub||'etapas'));
+    document.querySelectorAll('[data-guide]').forEach(el=>{const on=el.dataset.guide===(sub||'etapas');el.classList.toggle('active',on);el.setAttribute('aria-selected',String(on))});
+    window.scrollTo({top:0,behavior:'instant'});
+  }
+  document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',()=>{const h=el.dataset.view==='guia'?'etapas':el.dataset.view;if(location.hash==='#'+h)showRoute();else location.hash=h}));
+  document.querySelectorAll('[data-guide]').forEach(el=>el.addEventListener('click',()=>{if(location.hash==='#'+el.dataset.guide)showRoute();else location.hash=el.dataset.guide}));
+  window.addEventListener('hashchange',showRoute);
+  showRoute();
+  const reset=document.getElementById('resetFilters');
+  reset.addEventListener('click',()=>{
+    document.getElementById('searchInput').value='';
+    document.getElementById('categorySelect').value='all';
+    cat='all';state='all';
+    document.querySelectorAll('.chip').forEach(el=>el.classList.toggle('active',el.dataset.filter==='all'));
+    render();
+  });
+  let installPrompt=null;
+  window.addEventListener('beforeinstallprompt',ev=>{ev.preventDefault();installPrompt=ev});
+  document.getElementById('installApp').addEventListener('click',async()=>{
+    if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;return}
+    const help=document.getElementById('installHelp');
+    help.hidden=false;
+    help.textContent=/iPhone|iPad|iPod/i.test(navigator.userAgent)
+      ?'En Safari, toca Compartir y luego «Añadir a pantalla de inicio».'
+      :'En tu navegador, abre el menú (⋮) y selecciona «Instalar aplicación» o «Añadir a pantalla de inicio».';
+  });
+  if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+})();
 </script>
 </body></html>
