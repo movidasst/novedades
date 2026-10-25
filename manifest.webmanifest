@@ -1,0 +1,20 @@
+{
+  "id": "https://novedades.movidasst.com/",
+  "name": "Novedades ISO SST · La Movida de SST+",
+  "short_name": "Novedades SST",
+  "description": "Radar de normas y proyectos ISO relevantes para Seguridad y Salud en el Trabajo.",
+  "lang": "es",
+  "start_url": "/#radar",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#00205b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
