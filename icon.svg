@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Novedades ISO SST">
+<rect width="512" height="512" rx="104" fill="#00205b"/>
+<circle cx="256" cy="236" r="157" fill="#007b85"/>
+<circle cx="256" cy="236" r="116" fill="none" stroke="#ffffff" stroke-width="5" opacity=".55"/>
+<circle cx="256" cy="236" r="66" fill="none" stroke="#ffffff" stroke-width="5" opacity=".65"/>
+<circle cx="256" cy="236" r="12" fill="#ffb600"/>
+<path d="M256 236 359 134" stroke="#ffb600" stroke-width="14" stroke-linecap="round"/>
+<path d="M105 395h302" stroke="#b4e5e3" stroke-width="2" opacity=".5"/>
+<text x="256" y="450" font-family="Arial, sans-serif" font-size="59" font-weight="800" text-anchor="middle" fill="#fff">SST<tspan fill="#ffb600">+</tspan></text>
+</svg>
